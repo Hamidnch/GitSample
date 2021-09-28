@@ -30,10 +30,6 @@ namespace GitSample
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -42,10 +38,9 @@ namespace GitSample
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(293, 263);
             this.button1.Location = new System.Drawing.Point(40, 53);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 23);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -101,26 +96,21 @@ namespace GitSample
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(172, 73);
-            this.textBox2.Name = "textBox1";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 1;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(646, 345);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox2);
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
+=======
+            this.ClientSize = new System.Drawing.Size(646, 345);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBox1);
+>>>>>>> Dev
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -133,13 +123,15 @@ namespace GitSample
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+<<<<<<< HEAD
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+=======
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+>>>>>>> Dev
     }
 }
 
